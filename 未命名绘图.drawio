@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T08:46:44.238Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="RrM5VQZgkEENPjUGJQ-x" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-11T09:13:45.454Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="d6_6kivSeDGk696TJuUG" version="20.6.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="815" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -81,8 +81,32 @@
         <mxCell id="jxHOd6wvDyINd-V9LC7c-24" value="汇款单状态变更为&#39;&#39;已提款&#39;&#39;，智户宝自动发起提现" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="750" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="rYNuNte5FlujtF33tFsd-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jxHOd6wvDyINd-V9LC7c-26" target="rYNuNte5FlujtF33tFsd-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jxHOd6wvDyINd-V9LC7c-26" value="生成线下支付凭证，状态为&quot;审核通过&quot;" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rYNuNte5FlujtF33tFsd-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rYNuNte5FlujtF33tFsd-0" target="rYNuNte5FlujtF33tFsd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rYNuNte5FlujtF33tFsd-0" value="可进行批量支付刷单" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rYNuNte5FlujtF33tFsd-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rYNuNte5FlujtF33tFsd-2" target="rYNuNte5FlujtF33tFsd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rYNuNte5FlujtF33tFsd-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rYNuNte5FlujtF33tFsd-2" target="rYNuNte5FlujtF33tFsd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rYNuNte5FlujtF33tFsd-2" value="订单中的发票抬头和税号是否与汇款公司名一致" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="135" y="1180" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rYNuNte5FlujtF33tFsd-4" value="审核不通过" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="410" y="1195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rYNuNte5FlujtF33tFsd-6" value="审核自动通过" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="1365" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
